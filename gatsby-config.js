@@ -8,5 +8,11 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/mygatsby",  // 修改為你的 GitHub 項目名稱
+  siteMetadata: {
+    title: "Gatsby Site",
+    description: "A simple description",
+    author: "@gatsbyjs",
+  },
   plugins: [],
 }
